@@ -1,0 +1,28 @@
+h1 {
+  color: #34568B;
+}
+
+h3 {
+  color: #6B5B95;
+}
+
+a {
+  color: #92A8D1;
+}
+
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  color: #F7CAC9;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
