@@ -22,7 +22,7 @@ p {
   color: #F7CAC9;
 }
 
-ul {
-  display: inline-block;
-  text-align: left;
+li {
+  display: block;
+  text-align: center;
 }
