@@ -17,20 +17,19 @@ ul {
   list-style: none;
   display: flex;
   gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
-.header {
+.header{
   display: flex;
-  align-items: space-between;
+  justify-content: space-between;
+  padding: 15px;
 }
 
-/* .left-links { */
+/* .footer { */
+/*   justify-content: space-between; */
 /* } */
-/**/
-/* .right-links { */
-/* } */
-
-/* .content {} */
 
 img {
   width: 600px;
@@ -52,14 +51,16 @@ input {
   margin-bottom: 16px;
 }
 
+/* code lifted from the 4th exercise, changed for this exercise */
 .footer {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 52px;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 15px;
   background: #eee;
 }
