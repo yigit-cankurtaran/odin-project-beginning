@@ -8,11 +8,6 @@ body {
   padding: 32px;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
 .dark {
   background-color: #1F2937;
   margin: 0;
@@ -75,4 +70,22 @@ button{
   border-radius: 5px;
   text-align: center;
   padding: 5px 15px;
-} /* i'll just make the call to action button have a white border */
+  font-size: 17px;
+}
+
+.dark button {
+  margin-top: 10px;
+}
+
+.middle-part {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+html,body{
+  margin: 0;
+  width: 100vh;
+  height: 100vh;
+}
