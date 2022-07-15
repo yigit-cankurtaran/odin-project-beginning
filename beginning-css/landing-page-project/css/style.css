@@ -8,12 +8,16 @@ body {
   padding: 32px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 .dark {
   background-color: #1F2937;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
+  position: fixed;
+  padding: 40px;
 }
 
 .footer {
