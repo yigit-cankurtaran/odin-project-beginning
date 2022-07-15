@@ -11,11 +11,12 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 52px;
+  height: auto;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #E5E7EB;
+  background: #1F2937;
 }
 
 .top-left {
@@ -43,4 +44,9 @@ a {
 .dark-secondary {
   color: #E5E7EB;
   font-size: 18px;
+}
+
+.credits {
+  font-size: 16px;
+  color: #E5E7EB;
 }
