@@ -4,7 +4,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 32px;
 }
 
@@ -32,7 +32,6 @@ body {
 .top-left, .top-right{
   display: flex;
   align-items: center;
-  gap: 16px;
 }
 
 .logo {
@@ -45,6 +44,7 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
+  margin: 10px;
 }
 
 .dark-main {
