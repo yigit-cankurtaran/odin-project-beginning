@@ -78,6 +78,7 @@ button{
 
 .dark button {
   margin-top: 10px;
+  align-self: flex-start;
 }
 
 .middle-part {
